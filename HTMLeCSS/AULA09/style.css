@@ -1,0 +1,33 @@
+h1{
+    color: red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* possibilidade de criar variaveis globais*/
+    --corTitulos: rgb(0, 0, 0);
+    --corBotoes: blue;
+    --fonteTitulos: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: var(--corTitulos);
+    font-family: var(--fonteTitulos);
+}
+
+.classe{
+
+}
+
+
+h1:hover{
+    /* aplica estes estilos de CSS quando o mouse estiver em cima do elemento */
+color: blue;
+font-size: x-large;
+background-color: aqua;
+}

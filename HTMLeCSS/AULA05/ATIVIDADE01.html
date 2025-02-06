@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 01</title>
+</head>
+<body>
+
+    <form style="border: 1px solid black;"></form>
+
+    <h1>Formulário</h1>
+
+    <form>
+        
+        <fieldset>
+            <legend><b>Dados Pessoais: </b></legend>
+
+            <label for="name"> Nome: </label>
+            <input type="text" id="name" name="name"
+            placeholder="Digite seu nome">
+
+            <br>
+            <label for="email"> Email: </label>
+            <input type="email" id="Email" name="Email"
+            placeholder="email@email.com.br">
+
+            <br>
+            <label for="password"> Senha: </label>
+            <input type="password" id="password" name="Senha"
+            placeholder="Digite sua senha">
+
+            <br>
+            <label for="age"> Idade: </label>
+            <input type="number" id="Idade" 
+            placeholder="Digite sua idade">
+           
+            <br>
+            <label for="Date"> Nascimento: </label>
+            <input type="date" id="Data" name="Data">
+
+        </fieldset>
+            
+        <br>
+        <fieldset>
+            <legend><b>Endereço: </b></legend>
+            
+            <label for="CEP"> CEP: </label>
+            <input type="datetime" id="CEP" name="CEP"
+            placeholder="Ex: 60000-000">
+
+            <br>
+            <label for="text"> Rua: </label>
+            <input type="text" id="Adress" name="Adress"
+            placeholder="Digite seu endereço">
+
+            <br>
+            <label for="number"> Número: </label>
+            <input type="number" id="Nº" name="Nº"
+            placeholder="123">
+            
+            <br>
+            <label for="text"> Complemento: </label>
+            <input type="text" id="Complemento" name="Complemento"
+            placeholder="Ponto de referência">
+
+            <br>
+            <label for="text"> Bairro: </label>
+            <input type="text" id="UF" name="UF"
+            placeholder="Digite o Bairro">
+
+            <br>
+            <label for="text"> Cidade: </label>
+            <input type="text" id="Cidade" name="Cidade"
+            placeholder="Digite a Cidade">
+
+            <br>
+            <label for="text"> UF: </label>
+            <input type="text" id="UF" name="UF"
+            placeholder="Digite o estado">
+
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend><b>Curso:</b></legend>
+
+            <label for="">Turno: </label>
+
+            <input type="radio" name="turno" id="M" value="Manhã">
+            <label for=""> Manhã</label>
+
+            <input type="radio" name="turno" id="T" value="Tarde">
+            <label for=""> Tarde</label>
+
+            <input type="radio" name="turno" id="N" value="Noite">
+            <label for=""> Noite</label>
+
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend><b>Cidade de Interesse:</b></legend>
+
+            <label for="">Cidades: </label>
+
+            <input type="checkbox" name="Cidade" id="F" value="Fortaleza">
+            <label for="Fortaleza"> Fortaleza</label>
+            
+            <input type="checkbox" name="Cidade" id="R" value="Recife">
+            <label for="Recife"> Recife</label>
+
+            <input type="checkbox" name="Cidade" id="M" value="Maceio">
+            <label for="Maceio"> Maceió</label>
+
+            <input type="checkbox" name="Cidade" id="SP" value="Sao Paulo">
+            <label for="Sao Paulo"> São Paulo</label>
+
+        </fieldset>
+
+        <br>
+        <fieldset>
+            
+            <legend><b>Opções de Cursos: </b></legend>
+
+            <label for="Cursos">Escolha o curso de interesse: </label>
+
+            <select name="HTML" id="HTML">
+                <option value="">Selecione uma das opções</option>
+                <option value="HTML"> HTML</option>
+                <option value="CSS"> CSS</option>
+                <option value="BOOTSTRAP" disabled> BOOTSTRAP</option>
+                <option value="GIT"> GIT E GITHUB</option>
+                <option value="JS"> JAVA SCRIPT</option>
+                <option value="REACT"> REACT</option>
+           
+            </select>
+
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend><b>Tira Dúvidas: </b></legend>
+            <textarea name="" id="" cols="40" rows="10" placeholder="Digite sua dúvida aqui..." maxlength="500"></textarea>
+
+        </fieldset>
+
+        <br>
+        
+        <input type="submit">
+        
+        <br>
+        
+        <input type="button" value="Clique para enviar">
+
+    </form>
+    
+</body>
+</html>

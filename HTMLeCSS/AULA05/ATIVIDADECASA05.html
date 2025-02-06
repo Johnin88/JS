@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de Casa Aula 05</title>
+
+    <style>
+        
+        fieldset {
+            border: 2px ; /* Define a borda */
+            border-radius: 12px; /* Deixa as bordas arredondadas */
+            padding: 25px; /* Adiciona espaçamento interno */
+            background-color: gainsboro; /* Define um fundo cinza claro */
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">
+        Formulário de Candidatura
+    </h1>
+    
+    <fieldset >
+
+        <form>
+            
+            <label for="Nome">Nome: </label>
+            <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome">
+
+            <p>
+            <label for="Email">Email: </label>
+            <input type="email" name="Email" id="Email" placeholder="seu@email.com">
+            </p>
+
+            <p>
+            <label for="Cargo de Tecnologia">Cargo de Tecnologia: </label>
+            
+            <select name="Cargo de Tecnologia" id="Cargo de Tecnologia">
+                <option value="---">- - - </option>
+                <option value="Pessoa Desenvolvedora">Pessoa Desenvolvedora </option>
+                <option value="Analista de Sistemas">Analista de Sistemas </option>
+                <option value="Administrador(a) de Banco de Dados">Administrador(a) de Banco de Dados </option>
+                <option value="Testador(a)">Testador(a) </option>
+            </select>
+            </p>
+
+            <p>
+                <label for="">Gênero: </label>
+
+                <input type="radio" name="Sexo" id="M" value="Masculino">
+                <label for="">Masculino </label>
+
+                <input type="radio" name="Sexo" id="F" value="Masculino">
+                <label for="">Feminino </label>
+                
+                <input type="radio" name="Sexo" id="O" value="Outro">
+                <label for="">Outro </label>
+            </p>
+
+            <p>
+                <label for="Unidade de Interesse">Unidade de Interesse: </label>
+                
+                <input type="checkbox" name="Fortaleza" id="Fortaleza">
+                <label for="">Fortaleza </label>
+
+                <input type="checkbox" name="Caucaia" id="Caucaia">
+                <label for="">Caucaia </label>
+
+                <input type="checkbox" name="Eusebio" id="Eusebio">
+                <label for="">Eusébio </label>
+            </p>
+
+            <p>
+                <label for="SobreVoce"> Fale mais sobre voce: </label>
+                <br>
+                <textarea name="" id="" cols="50" rows="5"></textarea>
+            
+            </p>
+
+            <p>
+            <input type="submit">
+            </p>
+            
+        </form>
+
+    </fieldset>
+    
+</body>
+</html>
