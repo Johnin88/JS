@@ -23,13 +23,18 @@ for(let i = 0; i < alunos.length; i++){
     // calcular a média individual
     // adicionar a média ao array
     alunos[i].push(mediaIndividual)   
-    
+}
+
+// exibir o nome e a média de cada aluno
+for(let i = 0; i < alunos.length; i++){
+    console.log(`Nome: ${alunos[i][0]} - média: ${alunos[i][4]}`)
 }
 
 //2º loop para cálculo da média geral
+let somNotaGeral = 0
 for(let i = 0; i < alunos.length; i++){
-    let somaNotaGeral = 0
-    // a média geral vai receber o ultimo 
-} 
+    somNotaGeral += alunos[i][4]
+}
 
-let mediaGeral = somaNotaGeral/alunos.length
+let mediaGeral = somNotaGeral / alunos.length
+console.log(`A média geral da turma é ${mediaGeral}`)
